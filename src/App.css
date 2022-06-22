@@ -12,7 +12,16 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.main-row{
+  height: 100vh;
+}
+.main-col{
+  max-width: 500px;
+  min-height: 300px;
+}
+.todo-done{
+  text-decoration: line-through;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
