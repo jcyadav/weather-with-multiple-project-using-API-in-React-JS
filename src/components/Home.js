@@ -9,6 +9,7 @@ function Home() {
 <a href="/showprofile"> <button type='button' className="bg-purple-600 hover:bg-purple-700 text-white font-semibold hover:text-white py-2 px-4 border border-black hover:border-white-200 rounded">Check Github Users</button></a>
 <a href="/todolist"> <button type='button' className="bg-purple-600 hover:bg-purple-700 text-white font-semibold hover:text-white py-2 px-4 border border-black hover:border-white-200 rounded">Add TodoList</button></a>
 <a href="/searchImage"> <button type='button' className="bg-purple-600 hover:bg-purple-700 text-white font-semibold hover:text-white py-2 px-4 border border-black hover:border-white-200 rounded">Get Image</button></a>
+<a href="/datafetch"> <button type='button' className="bg-purple-600 hover:bg-purple-700 text-white font-semibold hover:text-white py-2 px-4 border border-black hover:border-white-200 rounded">Country List with API</button></a>
    </div>
 </>
   )

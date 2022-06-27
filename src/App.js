@@ -2,6 +2,7 @@ import './App.css';
 import WeatherPage from './components/WeatherPage';
 import Showprofile from './components/Showprofile';
 import SearchImage from './components/SearchImage';
+import Datafetch from './components/Datafetch';
 import Todo from './components/Todo';
 import Home from './components/Home';
 import {
@@ -18,6 +19,7 @@ function App() {
       <Route path="showprofile" element={<Showprofile />} />
       <Route path="todolist" element={<Todo/>}/>
       <Route path="searchImage" element={<SearchImage/>}/>
+      <Route path="datafetch" element={<Datafetch/>}/> 
     </Routes>
     <div><Footer/></div>
     </div>
